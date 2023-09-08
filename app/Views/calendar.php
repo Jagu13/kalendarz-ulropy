@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalendarz urlopowy</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.min.js"></script>
+    wersja 5.1.0 -->
+
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
+    
+    <link href="https://cdn.jsdelivr.net/npm/fullcalendar@5.7.0/main.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+
+    
+    <style>
+
+        * {
+            font-family: 'Roboto';
+            font-weight: 300;
+        }
+ 
+        .event-padding {
+            padding: 2px;
+        }
+
+        .fc-h-event{
+            border: none;
+        }
+
+    </style>
+        
+</head>
+<body>
+    <div id="calendar"></div> 
+
+
+    <script>
+        var plJsonUrl = '<?= base_url('jezyk.json') ?>'; // ścieżka do jezyk.json
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+                var calendarEl = document.getElementById('calendar');
+                var calendar = new FullCalendar.Calendar(calendarEl, {
+                    firstDay: 1,
+                    locale: 'pl',
+                    initialView: 'dayGridMonth',
+                    headerToolbar: {
+                        left: 'prev,next today',
+                        center: 'title',
+                        right: 'dayGridMonth,timeGridWeek',
+            },
+            
+            events: <?= json_encode($events) ?>,
+            //tłumaczenie
+            buttonText: {
+                today: 'Dziś',
+                month: 'Miesiąc',
+                week: 'Tydzień',
+            },
+
+        eventContent: function (info) {
+                // Tworzenie niestandardowej zawartości wydarzenia
+                var eventContent = document.createElement('div');
+                eventContent.innerHTML = '<b>' + info.event.title + '</b>';
+                
+                // Dostosowywanie koloru tła i obramowania w zależności od właściwości opisowej
+                var backgroundColor = getEventColor(info.event.extendedProps.description);
+                var fontColor = 'white';
+                var borderColor = 'black';
+                eventContent.style.backgroundColor = backgroundColor;
+                eventContent.style.borderColor = backgroundColor;
+                eventContent.style.color = fontColor;
+                eventContent.classList.add('event-padding');
+                
+                return { domNodes: [eventContent] }; //domNodes - dodawanie niesta\ndardowych elementów do DOM (tablicy)
+            },
+        });
+        calendar.render();
+        });
+
+        function getEventColor(grupaAbsencji) {
+                    grupaAbsencji = grupaAbsencji.toLowerCase(); // Zamień na małe litery
+
+                    if (grupaAbsencji.includes('urlopy wypoczynkowe')) {
+                        console.log('zielony');
+                        return 'green';
+                    // Kolor dla urlopów wypoczynkowych (zielony)
+                    } else {
+                        console.log('czerwony');
+                        return 'red'; // Domyślny kolor (czerwony) dla pozostałych
+                    }
+        }
+    </script>
+</body>
+</html>

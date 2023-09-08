@@ -1,0 +1,92 @@
+CRITICAL - 2023-08-30 07:49:22 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 227.
+ 1 SYSTEMPATH\CodeIgniter.php(227): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(191): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-08-30 07:56:14 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 227.
+ 1 SYSTEMPATH\CodeIgniter.php(227): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(191): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-08-30 08:00:17 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 227.
+ 1 SYSTEMPATH\CodeIgniter.php(227): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(191): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-08-30 08:30:12 --> Call to undefined function link_tag()
+in APPPATH\Views\calendar.php on line 11.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('calendar', [], true)
+ 4 APPPATH\Controllers\Calendar.php(9): view('calendar')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-30 08:50:05 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure() in C:\xampp\htdocs\kalendarz\system\Database\SQLSRV\Connection.php:128
+Stack trace:
+#0 C:\xampp\htdocs\kalendarz\system\Database\BaseConnection.php(391): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\kalendarz\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\kalendarz\app\Controllers\Calendar.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * FROM  ...')
+#3 C:\xampp\htdocs\kalendarz\system\CodeIgniter.php(932): App\Controllers\Calendar->index()
+#4 C:\xampp\htdocs\kalendarz\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+#5 C:\xampp\htdocs\kalendarz\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kalendarz\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-08-30 08:50:05 --> Unable to connect to the database.
+Main connection [sqlsrv]: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\Calendar.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * FROM  dane_AbsencjeCK  ORDER BY nazwisko, dataod;')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-30 08:53:59 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure() in C:\xampp\htdocs\kalendarz\system\Database\SQLSRV\Connection.php:128
+Stack trace:
+#0 C:\xampp\htdocs\kalendarz\system\Database\BaseConnection.php(391): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\kalendarz\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\kalendarz\app\Controllers\Calendar.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * FROM  ...')
+#3 C:\xampp\htdocs\kalendarz\system\CodeIgniter.php(932): App\Controllers\Calendar->index()
+#4 C:\xampp\htdocs\kalendarz\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+#5 C:\xampp\htdocs\kalendarz\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kalendarz\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-08-30 08:53:59 --> Unable to connect to the database.
+Main connection [SQLSRV]: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\Calendar.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * FROM  dane_AbsencjeCK  ORDER BY nazwisko, dataod;')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-30 11:39:40 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure() in C:\xampp\htdocs\kalendarz\system\Database\SQLSRV\Connection.php:128
+Stack trace:
+#0 C:\xampp\htdocs\kalendarz\system\Database\BaseConnection.php(391): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\kalendarz\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\kalendarz\app\Controllers\Calendar.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * FROM  ...')
+#3 C:\xampp\htdocs\kalendarz\system\CodeIgniter.php(932): App\Controllers\Calendar->index()
+#4 C:\xampp\htdocs\kalendarz\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+#5 C:\xampp\htdocs\kalendarz\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kalendarz\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-08-30 11:39:40 --> Unable to connect to the database.
+Main connection [SQLSRV]: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\Calendar.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * FROM  dane_AbsencjeCK  ORDER BY nazwisko, dataod;')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-30 11:52:35 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2023-08-30 11:52:35 --> Memory limit of 10240 KB exceeded for buffered query
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT * FROM  dane_AbsencjeCK  ORDER BY nazwisko, dataod;')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM  dane_AbsencjeCK  ORDER BY nazwisko, dataod;')
+ 3 APPPATH\Controllers\Calendar.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * FROM  dane_AbsencjeCK  ORDER BY nazwisko, dataod;')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

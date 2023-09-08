@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: rgb(240, 240, 255);
+}
+.event-custom-color {
+    background-color: yellow; /* Kolor tła domyślny */
+    border-color: yellow; /* Kolor obramowania domyślny */
+}
+#date {
+    text-align: center;
+    padding: 0.5%;
+    background-color: rgb(60, 125, 200);
+}
+
+
+.field {
+    height: 120px;
+}
+
+/* button {
+    font-size: 20px;
+    background-color: rgb(60, 125, 200);
+    border: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin: 0 5%;
+
+    table {
+    margin: 3% auto;
+}
+
+.days {
+    text-align: center;
+    background-color: rgb(60, 125, 200);
+}
+
+td {
+    border: 1px solid black;
+    width: 200px;
+}
+} */
+
+/*Style nagłówka*/
+#header{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    border-bottom:  solid rgb(0, 0, 0, 0.1);
+}
+
+/*Przycisk do zmiany miesiąca*/
+#header i {
+    font-size: 40px;
+    background-color: rgb(60, 125, 200);
+    border: none;
+    border-radius: 50%;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+i:hover {
+    background-color: rgb(40, 100, 160);  
+}
+
+#previous {
+    float: left;
+}
+
+#next {
+    float: right;
+}
+
+/*Bloki z dniami tygodnia*/
+#weekdays {
+    width: 100%;
+    display: flex;
+    color: #1a3c6a;
+}
+
+#weekdays div {
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    color: #1a3c6a;
+    font-weight: 550;
+}
+/*Kalendarz*/
+#calendar {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Kontener*/
+#container{
+    border-top: 4px solid #1a3c6a;
+    width: 1470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Bloki generowane z numerami dnia miesiąca*/
+.day{
+    width: 200px;
+    padding: 10px;
+    height: 175px;
+    cursor: pointer;
+    box-sizing: border-box;
+    background-color: white;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 0px 3px #CBD4C2;
+    color: black;
+}
+/*Bloki generowane przed pierwszym dniem miesiąca*/
+.paddingDay{
+    cursor: default !important;
+    background-color: #FFFCFF !important;
+    box-shadow: none !important;
+}
+
+/*Wyświetlenie nazwy miesiąca oraz roku w header*/
+#monthDisplay{
+    font-size: 34px;
+    color: #666F71;
+    flex-grow: 2;
+    margin-left: auto;
+    
+}
