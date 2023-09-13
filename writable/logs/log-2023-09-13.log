@@ -107,3 +107,448 @@ WARNING - 2023-09-13 11:12:59 --> [DEPRECATED] Function strftime() is deprecated
  3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
  4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 11:25:37 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 65.
+ 1 APPPATH\Controllers\Calendar.php(105): App\Models\Calendar_model->getAbsencesByName('b', 'berer')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 11:25:47 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 65.
+ 1 APPPATH\Controllers\Calendar.php(105): App\Models\Calendar_model->getAbsencesByName('Bartosz', 'Pacyński')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 11:26:24 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 65.
+ 1 APPPATH\Controllers\Calendar.php(105): App\Models\Calendar_model->getAbsencesByName('Jarosław', 'Gramacki')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 11:26:50 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 17.
+ 1 APPPATH\Controllers\Calendar.php(23): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-13 11:27:05 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-13 11:27:05 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'1011-01-10\'
+AND "dataOd" <= \'1012-30-04\'
+AND "dataDo" >= \'1011-01-10\'
+AND "dataDo" <= \'1012-30-04\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'1011-01-10\'
+AND "dataOd" <= \'1012-30-04\'
+AND "dataDo" >= \'1011-01-10\'
+AND "dataDo" <= \'1012-30-04\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(56): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(64): App\Models\Calendar_model->getAbsencesByDate('1012', '01')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 11:27:18 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 17.
+ 1 APPPATH\Controllers\Calendar.php(23): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-13 11:27:42 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-13 11:27:42 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'1500-01-01\'
+AND "dataOd" <= \'1500-31-07\'
+AND "dataDo" >= \'1500-01-01\'
+AND "dataDo" <= \'1500-31-07\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'1500-01-01\'
+AND "dataOd" <= \'1500-31-07\'
+AND "dataDo" >= \'1500-01-01\'
+AND "dataDo" <= \'1500-31-07\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(56): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(64): App\Models\Calendar_model->getAbsencesByDate('1500', '04')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 11:27:53 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 65.
+ 1 APPPATH\Controllers\Calendar.php(105): App\Models\Calendar_model->getAbsencesByName('Bartosz', '')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 11:28:01 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 65.
+ 1 APPPATH\Controllers\Calendar.php(105): App\Models\Calendar_model->getAbsencesByName('Bartosz', 'Pacyński')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 11:28:09 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 65.
+ 1 APPPATH\Controllers\Calendar.php(105): App\Models\Calendar_model->getAbsencesByName('Bartosz', '')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 11:28:15 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 65.
+ 1 APPPATH\Controllers\Calendar.php(105): App\Models\Calendar_model->getAbsencesByName('anton', '')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 11:28:15 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 65.
+ 1 APPPATH\Controllers\Calendar.php(105): App\Models\Calendar_model->getAbsencesByName('anton', '')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 11:40:01 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 17.
+ 1 APPPATH\Controllers\Calendar.php(23): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 11:58:18 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 65.
+ 1 APPPATH\Controllers\Calendar.php(105): App\Models\Calendar_model->getAbsencesByName('4654', '')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-13 11:58:40 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-13 11:58:40 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'0122-01-10\'
+AND "dataOd" <= \'0123-30-04\'
+AND "dataDo" >= \'0122-01-10\'
+AND "dataDo" <= \'0123-30-04\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'0122-01-10\'
+AND "dataOd" <= \'0123-30-04\'
+AND "dataDo" >= \'0122-01-10\'
+AND "dataDo" <= \'0123-30-04\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(56): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(64): App\Models\Calendar_model->getAbsencesByDate('123', '01')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 11:59:03 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 65.
+ 1 APPPATH\Controllers\Calendar.php(105): App\Models\Calendar_model->getAbsencesByName('123', '')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 11:59:04 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 65.
+ 1 APPPATH\Controllers\Calendar.php(105): App\Models\Calendar_model->getAbsencesByName('123', '')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-13 11:59:11 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-13 11:59:11 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'0122-01-10\'
+AND "dataOd" <= \'0123-30-04\'
+AND "dataDo" >= \'0122-01-10\'
+AND "dataDo" <= \'0123-30-04\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'0122-01-10\'
+AND "dataOd" <= \'0123-30-04\'
+AND "dataDo" >= \'0122-01-10\'
+AND "dataDo" <= \'0123-30-04\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(56): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(64): App\Models\Calendar_model->getAbsencesByDate('123', '01')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 12:07:09 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 17.
+ 1 APPPATH\Controllers\Calendar.php(23): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-13 12:07:25 --> Too few arguments to function App\Models\Calendar_model::getAbsencesByName(), 1 passed in C:\xampp\htdocs\kalendarz\app\Controllers\Calendar.php on line 109 and exactly 2 expected
+in APPPATH\Models\Calendar_model.php on line 60.
+ 1 APPPATH\Controllers\Calendar.php(109): App\Models\Calendar_model->getAbsencesByName('Tomasz')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 12:07:44 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 17.
+ 1 APPPATH\Controllers\Calendar.php(23): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 12:07:48 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 65.
+ 1 APPPATH\Controllers\Calendar.php(109): App\Models\Calendar_model->getAbsencesByName('tomasz')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 12:07:52 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 17.
+ 1 APPPATH\Controllers\Calendar.php(23): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 12:08:06 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 65.
+ 1 APPPATH\Controllers\Calendar.php(107): App\Models\Calendar_model->getAbsencesByName('Tomasz', 'Nowak')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 12:08:16 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 17.
+ 1 APPPATH\Controllers\Calendar.php(23): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 12:08:24 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 65.
+ 1 APPPATH\Controllers\Calendar.php(107): App\Models\Calendar_model->getAbsencesByName('Tomasz', 'Hołderny')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 12:08:31 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 17.
+ 1 APPPATH\Controllers\Calendar.php(23): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 12:09:58 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 17.
+ 1 APPPATH\Controllers\Calendar.php(23): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 12:10:02 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 90.
+ 1 APPPATH\Controllers\Calendar.php(109): App\Models\Calendar_model->getAbsencesByName('Tomasz')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 12:10:12 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 17.
+ 1 APPPATH\Controllers\Calendar.php(23): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 12:10:23 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 90.
+ 1 APPPATH\Controllers\Calendar.php(109): App\Models\Calendar_model->getAbsencesByName('Tomasz')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 12:10:48 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 17.
+ 1 APPPATH\Controllers\Calendar.php(23): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 12:10:51 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 90.
+ 1 APPPATH\Controllers\Calendar.php(109): App\Models\Calendar_model->getAbsencesByName('Tomasz')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 12:10:56 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 90.
+ 1 APPPATH\Controllers\Calendar.php(109): App\Models\Calendar_model->getAbsencesByName('Anna')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 12:11:05 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 17.
+ 1 APPPATH\Controllers\Calendar.php(23): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 12:11:52 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 110.
+ 1 APPPATH\Controllers\Calendar.php(111): App\Models\Calendar_model->getAbsencesBySurname('Berer')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 12:18:04 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(23): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 12:19:02 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(23): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 12:19:25 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(23): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 12:19:49 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(23): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 12:19:56 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 85.
+ 1 APPPATH\Controllers\Calendar.php(158): App\Models\Calendar_model->getAbsencesByName('Anna')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 12:20:12 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 85.
+ 1 APPPATH\Controllers\Calendar.php(158): App\Models\Calendar_model->getAbsencesByName('Tomasz')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 12:20:31 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 60.
+ 1 APPPATH\Controllers\Calendar.php(155): App\Models\Calendar_model->getAbsencesByFullName('Tomasz', 'Nowak')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 12:23:19 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(82): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 12:23:29 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 85.
+ 1 APPPATH\Controllers\Calendar.php(73): App\Models\Calendar_model->getAbsencesByName('Tomasz')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 12:23:32 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 85.
+ 1 APPPATH\Controllers\Calendar.php(73): App\Models\Calendar_model->getAbsencesByName('Leszko')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 12:23:40 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 109.
+ 1 APPPATH\Controllers\Calendar.php(76): App\Models\Calendar_model->getAbsencesBySurname('leszko')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 12:24:18 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 12:24:21 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Data.php(10): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 12:24:46 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Data.php(10): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 12:25:25 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 12:25:34 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 85.
+ 1 APPPATH\Controllers\Calendar.php(27): App\Models\Calendar_model->getAbsencesByName('Anna')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 12:25:45 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 85.
+ 1 APPPATH\Controllers\Calendar.php(27): App\Models\Calendar_model->getAbsencesByName('Tomasz')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 12:25:59 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 109.
+ 1 APPPATH\Controllers\Calendar.php(30): App\Models\Calendar_model->getAbsencesBySurname('Hołderny')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 12:28:13 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 85.
+ 1 APPPATH\Controllers\Calendar.php(27): App\Models\Calendar_model->getAbsencesByName('Kacper')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 12:28:24 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 85.
+ 1 APPPATH\Controllers\Calendar.php(27): App\Models\Calendar_model->getAbsencesByName('Tomasz')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 12:28:24 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 85.
+ 1 APPPATH\Controllers\Calendar.php(27): App\Models\Calendar_model->getAbsencesByName('Tomasz')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 12:32:07 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 85.
+ 1 APPPATH\Controllers\Calendar.php(27): App\Models\Calendar_model->getAbsencesByName('!')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

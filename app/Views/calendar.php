@@ -39,7 +39,7 @@
         // ścieżka do jezyk.json
         var plJsonUrl = '<?= base_url('jezyk.json') ?>'; 
 
-        initialData = '<?=$selectedDate?>'; //TUTAJ TRZEBA WRZUCIĆ SELECTED DATE Z MODELU
+        initialDate = '<?=$selectedDate?>';
 
         document.addEventListener('DOMContentLoaded', function () {
                 var calendarEl = document.getElementById('calendar');
@@ -47,7 +47,7 @@
                     firstDay: 1, //poniedziałek
                     locale: 'pl',
                     initialView: 'dayGridMonth',
-                    initialDate: initialData,
+                    initialDate: initialDate,
                     headerToolbar: {
                         left: 'prev,next today',
                         center: 'title',

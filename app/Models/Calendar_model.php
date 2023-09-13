@@ -9,21 +9,16 @@ class Calendar_model extends Model
     protected $table = 'dane_AbsencjeCK';
 
     //pobieranie danych z bazy danych
-    public function getAbsences()
-    {
+    public function getAbsences() {
         $db = \Config\Database::connect(); //podłączenie się do bazy danych
 
         // daty rok w przód i rok w przód
         $currentDate = strftime("%Y-%m-%d");
 
         //obliczanie dat do zapytania SQL
-        $startDate = date('Y-01-m', strtotime('-1 year', strtotime($currentDate)));
-        $endDate = date('Y-t-m', strtotime('+1 year', strtotime($currentDate)));
+        $startDate = date('Y-01-m', strtotime('-1 month', strtotime($currentDate)));
+        $endDate = date('Y-t-m', strtotime('+1 month', strtotime($currentDate)));
         
-        //echo $currentDate .'<br>';
-        //echo $startDate .'<br>';
-        //echo $endDate;
-
         return $this->db->table($this->table)
             ->select('imie, nazwisko, dataOd, dataDo, grupaAbsencji')
             ->where('dataOd >=', $startDate) //2022-09-01
@@ -41,8 +36,8 @@ class Calendar_model extends Model
 
         $selectedDate = $year . '-' . $month . '-01';
         
-        $startDate = date('Y-01-m', strtotime('-3 month', strtotime($selectedDate)));
-        $endDate = date('Y-t-m', strtotime('+3 month', strtotime($selectedDate)));
+        $startDate = date('Y-01-m', strtotime('-1 month', strtotime($selectedDate)));
+        $endDate = date('Y-t-m', strtotime('+1 month', strtotime($selectedDate)));
     
 
         //Wykonaj zapytanie do bazy danych, aby pobrać wydarzenia w określonym zakresie dat
@@ -57,7 +52,7 @@ class Calendar_model extends Model
             ->getResult();
     }
 
-    public function getAbsencesByName($name, $surname) {
+    public function getAbsencesByFullName($name, $surname) {
 
         $db = \Config\Database::connect();
 
@@ -76,6 +71,54 @@ class Calendar_model extends Model
             ->where('dataDo >=', $startDate)
             ->where('dataDo <=', $endDate)
             ->where('imie =', $name)
+            ->where('nazwisko =', $surname)
+            ->orderBy('dataOd', 'ASC')
+            ->get()
+            ->getResult();
+    }
+
+    public function getAbsencesByName($name) {
+
+        $db = \Config\Database::connect();
+
+       // daty rok w przód i rok w przód
+       $currentDate = strftime("%Y-%m-%d");
+
+       //obliczanie dat do zapytania SQL
+       $startDate = date('Y-01-m', strtotime('-1 year', strtotime($currentDate)));
+       $endDate = date('Y-t-m', strtotime('+1 year', strtotime($currentDate)));
+
+        //Wykonaj zapytanie do bazy danych, aby pobrać wydarzenia w określonym zakresie dat
+        return $this->db->table($this->table)
+            ->select('imie, nazwisko, dataOd, dataDo, grupaAbsencji')
+            ->where('dataOd >=', $startDate)
+            ->where('dataOd <=', $endDate)
+            ->where('dataDo >=', $startDate)
+            ->where('dataDo <=', $endDate)
+            ->where('imie =', $name)
+            ->orderBy('dataOd', 'ASC')
+            ->get()
+            ->getResult();
+    }
+
+    public function getAbsencesBySurname($surname) {
+
+        $db = \Config\Database::connect();
+
+       // daty rok w przód i rok w przód
+       $currentDate = strftime("%Y-%m-%d");
+
+       //obliczanie dat do zapytania SQL
+       $startDate = date('Y-01-m', strtotime('-1 year', strtotime($currentDate)));
+       $endDate = date('Y-t-m', strtotime('+1 year', strtotime($currentDate)));
+
+        //Wykonaj zapytanie do bazy danych, aby pobrać wydarzenia w określonym zakresie dat
+        return $this->db->table($this->table)
+            ->select('imie, nazwisko, dataOd, dataDo, grupaAbsencji')
+            ->where('dataOd >=', $startDate)
+            ->where('dataOd <=', $endDate)
+            ->where('dataDo >=', $startDate)
+            ->where('dataDo <=', $endDate)
             ->where('nazwisko =', $surname)
             ->orderBy('dataOd', 'ASC')
             ->get()

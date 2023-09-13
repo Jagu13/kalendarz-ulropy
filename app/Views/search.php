@@ -61,7 +61,7 @@
 </head>
 <body>
     <div class="wrapper">
-        <form action="<?= base_url('calendar/search') ?>" method="get" target="calendarFrame">
+        <form action="<?= base_url('calendar/index') ?>" method="get" target="calendarFrame">
         <fieldset>
             <legend>wyszukaj po</legend>
             <p>
@@ -92,7 +92,7 @@
         
         </form>
 
-        <form action="<?= base_url('calendar/search2') ?>" method="get" target="calendarFrame">
+        <form action="<?= base_url('calendar/index') ?>" method="get" target="calendarFrame">
         <fieldset>
             <legend>wyszukaj po</legend>
             <p>
