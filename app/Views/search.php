@@ -92,7 +92,7 @@
         
         </form>
 
-        <form action="get">
+        <form action="<?= base_url('calendar/search2') ?>" method="get" target="calendarFrame">
         <fieldset>
             <legend>wyszukaj po</legend>
             <p>

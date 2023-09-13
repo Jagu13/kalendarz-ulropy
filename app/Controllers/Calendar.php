@@ -57,6 +57,7 @@ class Calendar extends BaseController {
     public function search(/*$year, $month*/) {
         $model = new Calendar_model();
 
+
         //pobieranie roku i miesiąca
         $year = $this->request->getGet('year');
         $month = $this->request->getGet('months');
@@ -89,7 +90,46 @@ class Calendar extends BaseController {
         // Pobierz ostatnie wykonane zapytanie
         $query = $model->getLastQuery();
 
+        // Przekazanie danych do widoku i renderowanie go
+        return view('calendar', $data);
+    }
 
+    public function search2(/*$year, $month*/) {
+        $model = new Calendar_model();
+
+        $data['selectedDate'] = date('Y-m-d');
+
+        //pobieranie imeinia i nazwiska
+        $name = $this->request->getGet('name');
+        $surname = $this->request->getGet('surname');
+        $data['events'] = $model->getAbsencesByName($name, $surname);
+
+        // $data['selectedDate'] = $year . '-' . $month . '-01';
+    
+        $events = []; //tablica danych z bazy danych
+
+        //pętla wypełniająca tablicę danymi
+        foreach ($data['events'] as $event) {
+
+            $startDate = new \DateTime($event->dataOd);
+            $endDate = new \DateTime($event->dataDo);
+
+            if ($startDate != $endDate) {
+                $endDate->modify('+1 day');
+            }
+            
+            $events[] = [
+                'title' => $event->imie . ' ' . $event->nazwisko,
+                'start' => $startDate->format('Y-m-d'),
+                'end' => $endDate->format('Y-m-d'),
+                'description' => $event->grupaAbsencji
+            ];
+        }
+
+        $data['events'] = $events;
+
+        // Pobierz ostatnie wykonane zapytanie
+        $query = $model->getLastQuery();
 
         // Przekazanie danych do widoku i renderowanie go
         return view('calendar', $data);

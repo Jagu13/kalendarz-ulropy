@@ -35,6 +35,7 @@ $routes->get('calendar/index', 'Calendar::index'); //adres do kalendarza
 $routes->get('search', 'Search::index'); //adres do wyszukiwania
 $routes->get('data', 'Data::getData'); //adres do danych
 $routes->get('calendar/search', 'Calendar::search');
+$routes->get('calendar/search2', 'Calendar::search2');
 //$routes->get('calendar/search/(:num)/(:any)', 'Calendar::search/$1/$2');
 
 
