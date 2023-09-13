@@ -17,8 +17,8 @@ class Calendar_model extends Model
         $currentDate = strftime("%Y-%m-%d");
 
         //obliczanie dat do zapytania SQL
-        $startDate = date('Y-01-m', strtotime('-1 month', strtotime($currentDate)));
-        $endDate = date('Y-t-m', strtotime('+1 month', strtotime($currentDate)));
+        $startDate = date('Y-01-m', strtotime('-1 year', strtotime($currentDate)));
+        $endDate = date('Y-t-m', strtotime('+1 year', strtotime($currentDate)));
         
         //echo $currentDate .'<br>';
         //echo $startDate .'<br>';
@@ -41,10 +41,11 @@ class Calendar_model extends Model
 
         $selectedDate = $year . '-' . $month . '-01';
         
-        $startDate = date('Y-01-m', strtotime('-1 month', strtotime($selectedDate)));
-        $endDate = date('Y-t-m', strtotime('+1 month', strtotime($selectedDate)));
+        $startDate = date('Y-01-m', strtotime('-3 month', strtotime($selectedDate)));
+        $endDate = date('Y-t-m', strtotime('+3 month', strtotime($selectedDate)));
     
-        // Wykonaj zapytanie do bazy danych, aby pobrać wydarzenia w określonym zakresie dat
+
+        //Wykonaj zapytanie do bazy danych, aby pobrać wydarzenia w określonym zakresie dat
         return $this->db->table($this->table)
             ->select('imie, nazwisko, dataOd, dataDo, grupaAbsencji')
             ->where('dataOd >=', $startDate)
@@ -56,3 +57,4 @@ class Calendar_model extends Model
             ->getResult();
     }
 }
+

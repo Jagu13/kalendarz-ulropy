@@ -1,0 +1,56 @@
+CRITICAL - 2023-09-13 08:05:31 --> Undefined variable $selectedDate
+in APPPATH\Views\calendar.php on line 42.
+ 1 APPPATH\Views\calendar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedDate', 'C:\\xampp\\htdocs\\kalendarz\\app\\Views\\calendar.php', 42)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\kalendarz\\app\\Views\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('calendar', [], true)
+ 5 APPPATH\Controllers\Calendar.php(52): view('calendar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-13 08:05:53 --> Undefined variable $selectedDate
+in APPPATH\Views\calendar.php on line 42.
+ 1 APPPATH\Views\calendar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedDate', 'C:\\xampp\\htdocs\\kalendarz\\app\\Views\\calendar.php', 42)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\kalendarz\\app\\Views\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('calendar', [], true)
+ 5 APPPATH\Controllers\Calendar.php(52): view('calendar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-13 08:06:09 --> Undefined variable $selectedDate
+in APPPATH\Views\calendar.php on line 42.
+ 1 APPPATH\Views\calendar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedDate', 'C:\\xampp\\htdocs\\kalendarz\\app\\Views\\calendar.php', 42)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\kalendarz\\app\\Views\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('calendar', [], true)
+ 5 APPPATH\Controllers\Calendar.php(52): view('calendar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 08:07:03 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 17.
+ 1 APPPATH\Controllers\Calendar.php(23): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-13 08:07:03 --> Undefined variable $selectedDate
+in APPPATH\Views\calendar.php on line 42.
+ 1 APPPATH\Views\calendar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedDate', 'C:\\xampp\\htdocs\\kalendarz\\app\\Views\\calendar.php', 42)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\kalendarz\\app\\Views\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('calendar', [], true)
+ 5 APPPATH\Controllers\Calendar.php(52): view('calendar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-13 08:08:33 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 17.
+ 1 APPPATH\Controllers\Calendar.php(23): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

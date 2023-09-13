@@ -35,18 +35,19 @@
 <body>
     <div id="calendar"></div> 
 
-
     <script>
-        var plJsonUrl = '<?= base_url('jezyk.json') ?>'; // ścieżka do jezyk.json
-    </script>
+        // ścieżka do jezyk.json
+        var plJsonUrl = '<?= base_url('jezyk.json') ?>'; 
 
-    <script>
+        initialData = '<?=$selectedDate?>'; //TUTAJ TRZEBA WRZUCIĆ SELECTED DATE Z MODELU
+
         document.addEventListener('DOMContentLoaded', function () {
                 var calendarEl = document.getElementById('calendar');
                 var calendar = new FullCalendar.Calendar(calendarEl, {
-                    firstDay: 1,
+                    firstDay: 1, //poniedziałek
                     locale: 'pl',
                     initialView: 'dayGridMonth',
+                    initialDate: initialData,
                     headerToolbar: {
                         left: 'prev,next today',
                         center: 'title',
@@ -85,14 +86,13 @@
                     grupaAbsencji = grupaAbsencji.toLowerCase(); // Zamień na małe litery
 
                     if (grupaAbsencji.includes('urlopy wypoczynkowe')) {
-                        console.log('zielony');
                         return 'green';
                     // Kolor dla urlopów wypoczynkowych (zielony)
                     } else {
-                        console.log('czerwony');
                         return 'red'; // Domyślny kolor (czerwony) dla pozostałych
                     }
         }
+
     </script>
 </body>
 </html>

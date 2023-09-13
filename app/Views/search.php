@@ -56,40 +56,22 @@
 
     </style>
     <script>
-        
-        function filterCalendar() {
-            var year = document.getElementById('year').value;
-            var month = document.getElementById('months').value;
 
-            //nowe źródło dla drugiego iframe z kalendarzem
-            var calendarFrame = parent.document.getElementsById('calendarFrame')[0];
-            calendarFrame.src = '<?= base_url('dupa') ?>' + '?year=' + year + '&months=' + month;
-        }
-    </script>
-        <!-- wysyłanie zapytania z tej strony -->
-    <script>
-        function updateCalendar() {
-            var year = document.getElementById('year').value;
-            var month = document.getElementById('months').value;
-
-            // Wysyłanie danych do drugiego iframe
-            window.parent.postMessage({ year: year, month: month }, '*');
-        }
     </script>
 </head>
 <body>
     <div class="wrapper">
-        <form action="<?= base_url('calendar/index') ?>" method="get">
+        <form action="<?= base_url('calendar/search') ?>" method="get" target="calendarFrame">
         <fieldset>
             <legend>wyszukaj po</legend>
             <p>
-                <label for="rok">rok:</label>
+                <label for="year">rok:</label>
                 <input type="number" name="year" id="year"/>
                 <br>
             </p>
             <p>
-                <label for="miesiac">miesiąc:</label>
-                    <select id="months" name="months">
+                <label for="months">miesiąc:</label>
+                    <select id="months" name="months" id="months">
                         <option value="01">styczeń</option>
                         <option value="02">luty</option>
                         <option value="03">marzec</option>
@@ -115,11 +97,11 @@
             <legend>wyszukaj po</legend>
             <p>
                 <label for="name">imię</label>
-                <input type="text" name="name">
+                <input type="text" name="name" id="name">
             </p>
             <p>
                 <label for="surname">nazwisko</label>
-                <input type="text" name="surname">
+                <input type="text" name="surname" id="surname">
             </p>
 
             <input type="submit" value="szukaj"/>

@@ -25,6 +25,8 @@ class Calendar extends BaseController {
 
         $events = []; //tablica danych z bazy danych
 
+        $data['selectedDate'] = date('Y-m-d');
+
         //pętla wypełniająca tablicę danymi
         foreach ($data['events'] as $event) {
 
@@ -52,13 +54,15 @@ class Calendar extends BaseController {
         return view('calendar', $data);
     }
 
-    public function search($year, $month) {
+    public function search(/*$year, $month*/) {
         $model = new Calendar_model();
 
         //pobieranie roku i miesiąca
-        $year = $this->request->getPost('year');
-        $month = $this->request->getPost('months');
+        $year = $this->request->getGet('year');
+        $month = $this->request->getGet('months');
         $data['events'] = $model->getAbsencesByDate($year, $month);
+
+        $data['selectedDate'] = $year . '-' . $month . '-01';
     
         $events = []; //tablica danych z bazy danych
 
@@ -80,11 +84,12 @@ class Calendar extends BaseController {
             ];
         }
 
-    
         $data['events'] = $events;
 
         // Pobierz ostatnie wykonane zapytanie
         $query = $model->getLastQuery();
+
+
 
         // Przekazanie danych do widoku i renderowanie go
         return view('calendar', $data);

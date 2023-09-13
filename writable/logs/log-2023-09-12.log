@@ -1,0 +1,1080 @@
+ERROR - 2023-09-12 11:01:43 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-12 11:01:43 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(61): App\Models\Calendar_model->getAbsencesByDate('2020', '01')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-12 11:15:29 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-12 11:15:29 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(61): App\Models\Calendar_model->getAbsencesByDate('2022', '01')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-12 11:15:52 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-12 11:15:52 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(61): App\Models\Calendar_model->getAbsencesByDate('2022', '02')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-12 11:15:56 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-12 11:15:56 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(61): App\Models\Calendar_model->getAbsencesByDate('2024', '02')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-12 11:15:59 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-12 11:15:59 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(61): App\Models\Calendar_model->getAbsencesByDate('2024', '12')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-12 11:17:31 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-12 11:17:31 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(61): App\Models\Calendar_model->getAbsencesByDate(null, null)
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-12 11:17:47 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-12 11:17:47 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(61): App\Models\Calendar_model->getAbsencesByDate('2024', '01')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-12 11:18:58 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-12 11:18:58 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(61): App\Models\Calendar_model->getAbsencesByDate('2024', '01')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-12 11:19:20 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-12 11:19:20 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(61): App\Models\Calendar_model->getAbsencesByDate('2024', '01')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-12 11:20:25 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-12 11:20:25 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(61): App\Models\Calendar_model->getAbsencesByDate('2024', '01')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-12 11:20:26 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-12 11:20:26 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(61): App\Models\Calendar_model->getAbsencesByDate('2024', '01')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-12 11:20:26 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-12 11:20:26 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(61): App\Models\Calendar_model->getAbsencesByDate('2024', '01')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-12 11:20:26 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-12 11:20:26 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(61): App\Models\Calendar_model->getAbsencesByDate('2024', '01')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-12 11:20:26 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-12 11:20:26 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(61): App\Models\Calendar_model->getAbsencesByDate('2024', '01')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-12 11:20:36 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-12 11:20:36 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(61): App\Models\Calendar_model->getAbsencesByDate('2024', '01')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-12 11:21:02 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-12 11:21:02 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(61): App\Models\Calendar_model->getAbsencesByDate('2024', '01')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-12 11:24:36 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-12 11:24:36 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(61): App\Models\Calendar_model->getAbsencesByDate('-7', '01')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-12 11:24:38 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-12 11:24:38 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(61): App\Models\Calendar_model->getAbsencesByDate('-7', '01')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-12 11:24:51 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-12 11:24:51 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(61): App\Models\Calendar_model->getAbsencesByDate('21', '01')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-12 11:25:02 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-12 11:25:02 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(61): App\Models\Calendar_model->getAbsencesByDate('21', '01')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-12 11:25:33 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-12 11:25:33 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(61): App\Models\Calendar_model->getAbsencesByDate(null, null)
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-12 11:26:46 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-12 11:26:46 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(61): App\Models\Calendar_model->getAbsencesByDate('-10', '11')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-12 11:28:03 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-12 11:28:03 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(61): App\Models\Calendar_model->getAbsencesByDate('3478', '01')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-12 11:28:56 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-12 11:28:56 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(61): App\Models\Calendar_model->getAbsencesByDate('777', '01')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-12 11:33:44 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-12 11:33:44 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(61): App\Models\Calendar_model->getAbsencesByDate('2333', '01')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-12 11:34:40 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-12 11:34:40 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(61): App\Models\Calendar_model->getAbsencesByDate('2333', '01')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-12 11:34:41 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-12 11:34:41 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(61): App\Models\Calendar_model->getAbsencesByDate('2333', '01')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-12 11:34:41 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-12 11:34:41 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(61): App\Models\Calendar_model->getAbsencesByDate('2333', '01')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-12 11:34:57 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-12 11:34:57 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(61): App\Models\Calendar_model->getAbsencesByDate('1111', '01')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-12 11:35:05 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-12 11:35:05 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(61): App\Models\Calendar_model->getAbsencesByDate('2022', '01')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-12 11:35:52 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-12 11:35:52 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(61): App\Models\Calendar_model->getAbsencesByDate('', '01')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-12 11:36:00 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-12 11:36:00 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(61): App\Models\Calendar_model->getAbsencesByDate('2022', '06')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-12 11:36:02 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-12 11:36:02 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(61): App\Models\Calendar_model->getAbsencesByDate('2022', '06')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-12 11:36:02 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-12 11:36:02 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(61): App\Models\Calendar_model->getAbsencesByDate('2022', '06')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-12 11:36:02 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-12 11:36:02 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(61): App\Models\Calendar_model->getAbsencesByDate('2022', '06')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-12 11:36:03 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-12 11:36:03 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'2017-07-17\'
+AND "dataOd" <= \'2017-07-18\'
+AND "dataDo" >= \'2017-07-18\'
+AND "dataDo" <= \'2017-07-18\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(65): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(61): App\Models\Calendar_model->getAbsencesByDate('2022', '06')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
