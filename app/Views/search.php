@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -60,8 +59,10 @@
     </script>
 </head>
 <body>
+    <?php $zmienna = 'http://192.168.15.144';       
+    ?>
     <div class="wrapper">
-        <form action="<?= base_url('calendar/index') ?>" method="get" target="calendarFrame">
+        <form action="<?php echo $zmienna . '/calendar/index';?>" method="get" target="calendarFrame">
         <fieldset>
             <legend>wyszukaj po</legend>
             <p>
@@ -92,7 +93,7 @@
         
         </form>
 
-        <form action="<?= base_url('calendar/index') ?>" method="get" target="calendarFrame">
+        <form action="<?php echo $zmienna . '/calendar/index';?>" method="get" target="calendarFrame">
         <fieldset>
             <legend>wyszukaj po</legend>
             <p>

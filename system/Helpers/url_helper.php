@@ -156,6 +156,7 @@ if (! function_exists('base_url')) {
         $config->indexPage = '';
 
         return site_url($relativePath, $scheme, $config);
+        //return site_url('http://192.168.15.144');
     }
 }
 

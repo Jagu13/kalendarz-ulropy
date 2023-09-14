@@ -44,14 +44,21 @@
 
             // Wysyłanie danych do drugiego iframe
             window.parent.postMessage({ year: year, month: month }, '*');
-        }         
+        }  
 
     </script>
 </head>
 
-<body>
-    <iframe src="<?= base_url('search') ?>" frameborder="1" class="firstPage" id="searchFrame"></iframe>
-    <iframe height="100%" color="blue" src="<?= base_url('calendar/index') ?>" frameborder="1" class="secondPage" id="calendarFrame" name="calendarFrame"></iframe>
+<body>        
+    <?php $zmienna = 'http://192.168.15.144';       
+    ?>
+        
+    <!-- <iframe src="http://192.168.15.144/search" frameborder="1" class="firstPage" id="searchFrame"></iframe> -->
+    <iframe src="<?php echo $zmienna . '/search';?>" frameborder="1" class="firstPage" id="searchFrame"></iframe>
+        
+    <!-- <iframe height="100%" color="blue" src="<?= base_url('calendar/index') ?>" frameborder="1" class="secondPage" id="calendarFrame" name="calendarFrame"></iframe> -->
+    <!-- <iframe height="100%" color="blue" src="http://192.168.15.144/calendar/index" frameborder="1" class="secondPage" id="calendarFrame" name="calendarFrame"></iframe> -->
+        <iframe height="100%" color="blue" src="<?php echo $zmienna . '/calendar/index';?>" frameborder="1" class="secondPage" id="calendarFrame" name="calendarFrame"></iframe>
     <script>
         //zbędne
     // var searchFrame = document.getElementById("searchFrame");
@@ -60,7 +67,7 @@
     //     cos.filterCalendar();
 
         window.addEventListener('message', function(event) {
-            if (event.origin !== 'http://localhost/search') {
+            if (event.origin !== 'http://192.168.15.144/search') {
                 return;
             } 
             

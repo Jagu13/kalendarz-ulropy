@@ -76,7 +76,7 @@
                 eventContent.style.color = fontColor;
                 eventContent.classList.add('event-padding');
                 
-                return { domNodes: [eventContent] }; //domNodes - dodawanie niesta\ndardowych elementów do DOM (tablicy)
+                return { domNodes: [eventContent] }; //domNodes - dodawanie niestandardowych elementów do DOM (tablicy)
             },
         });
         calendar.render();

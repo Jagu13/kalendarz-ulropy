@@ -1,0 +1,1217 @@
+WARNING - 2023-09-14 08:12:58 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 08:12:58 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694607809.067258.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694607809.067258.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694607809.067258.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694679178.501835', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 08:21:42 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 08:22:02 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 08:26:34 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 08:29:50 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 08:34:49 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 08:47:55 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 08:48:34 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 08:58:21 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 08:59:27 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 09:02:19 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 09:05:18 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 09:30:06 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 09:32:12 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Data.php(10): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 09:32:35 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 09:33:20 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 09:33:30 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 85.
+ 1 APPPATH\Controllers\Calendar.php(27): App\Models\Calendar_model->getAbsencesByName('Tomasz')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 09:33:36 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 60.
+ 1 APPPATH\Controllers\Calendar.php(24): App\Models\Calendar_model->getAbsencesByFullName('Tomasz', 'Nowak')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 09:33:36 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 09:34:11 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 09:34:18 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Data.php(10): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 09:37:29 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 09:37:30 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 09:37:31 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 09:40:20 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 09:40:20 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 09:40:54 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 09:41:00 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 09:41:00 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 09:41:12 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 09:41:12 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:15 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684393.827572.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684393.827572.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684393.827572.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684655.477394', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:15 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684498.380718.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684498.380718.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684498.380718.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684655.711670', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:15 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684655.630641.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684655.630641.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684655.630641.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684655.865956', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:16 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684655.865956.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684655.865956.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684655.865956.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684656.062192', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:16 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684655.916089.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684655.916089.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684655.916089.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684656.112539', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:16 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684655.969281.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684655.969281.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684655.969281.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684656.225179', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:16 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684656.109588.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684656.109588.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684656.109588.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684656.289672', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:16 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684656.152117.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684656.152117.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684656.152117.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684656.376842', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:16 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684656.288499.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684656.288499.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684656.288499.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684656.526955', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:16 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684656.526265.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684656.526265.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684656.526265.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684656.708010', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:16 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684656.609636.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684656.609636.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684656.609636.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684656.803523', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:16 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684656.609636.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684656.609636.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684656.609636.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684656.812346', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:17 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684656.660993.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684656.660993.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684656.660993.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684656.885683', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:17 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684656.895166.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684656.895166.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684656.895166.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684657.147617', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:17 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684657.124718.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684657.124718.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684657.124718.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684657.325267', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:17 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684657.124718.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684657.124718.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684657.124718.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684657.317899', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:17 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684657.317147.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684657.317147.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684657.317147.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684657.497674', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:17 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684657.317147.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684657.317147.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684657.317147.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684657.483201', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:17 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684657.410077.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684657.410077.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684657.410077.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684657.584029', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:17 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684657.497674.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684657.497674.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684657.497674.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684657.667649', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:17 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684657.497674.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684657.497674.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684657.497674.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684657.712572', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:17 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684657.574975.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684657.574975.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684657.574975.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684657.799785', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:17 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684657.584029.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684657.584029.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684657.584029.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684657.877982', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:18 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684657.922936.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684657.922936.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684657.922936.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684658.145524', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:18 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684657.968378.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684657.968378.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684657.968378.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684658.205607', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:18 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684658.145524.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684658.145524.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684658.145524.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684658.294538', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:18 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684658.194017.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684658.194017.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684658.194017.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684658.392481', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:18 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684658.233853.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684658.233853.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684658.233853.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684658.403694', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:18 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684658.205607.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684658.205607.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684658.205607.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684658.396325', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:18 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684658.346091.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684658.346091.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684658.346091.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684658.534030', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:18 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684658.403694.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684658.403694.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684658.403694.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684658.589676', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:18 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684658.504671.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684658.504671.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684658.504671.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684658.651899', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:18 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684658.654979.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684658.654979.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684658.654979.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684658.737791', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:18 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684658.654979.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684658.654979.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684658.654979.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684658.729781', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:18 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684658.716826.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684658.716826.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684658.716826.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684658.771517', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:18 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684658.716826.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684658.716826.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684658.716826.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684658.784744', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:18 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684658.716826.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684658.716826.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684658.716826.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684658.738381', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:19 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684658.738980.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684658.738980.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684658.738980.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684658.873883', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:19 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684658.865388.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684658.865388.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684658.865388.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684658.917336', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:19 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684658.964395.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684658.964395.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684658.964395.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684659.113012', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:19 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684658.964395.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684658.964395.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684658.964395.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684659.080346', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:19 --> file_get_contents(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684659.069212.json): Failed to open stream: No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684659.069212.json): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 82)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(82): file_get_contents('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684659.069212.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684659.239408', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:19 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684659.237619.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684659.237619.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684659.237619.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684659.301079', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:19 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684659.415694.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684659.415694.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684659.415694.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684659.455062', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:19 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684659.415694.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684659.415694.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684659.415694.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684659.461953', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:19 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684659.461953.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684659.461953.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684659.461953.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684659.603970', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:20 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684659.789470.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684659.789470.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684659.789470.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684659.794403', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:20 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684659.794403.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684659.794403.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684659.794403.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684659.868804', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:20 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684659.807224.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684659.807224.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684659.807224.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684659.968766', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:20 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684660.164657.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684660.164657.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684660.164657.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684660.181447', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:20 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684660.164657.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684660.164657.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684660.164657.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684660.181323', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:20 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684660.229766.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684660.229766.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684660.229766.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684660.272650', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:20 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684660.229766.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684660.229766.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684660.229766.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684660.227228', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:20 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684660.272650.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684660.272650.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684660.272650.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684660.285082', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:20 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684660.272650.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684660.272650.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684660.272650.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684660.272182', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:20 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684660.509163.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684660.509163.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684660.509163.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684660.502986', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:21 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684660.905083.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684660.905083.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684660.905083.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684661.010944', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:21 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684661.022495.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684661.022495.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684661.022495.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684661.022419', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:21 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684661.110798.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684661.110798.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684661.110798.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684661.114494', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:21 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684661.317492.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684661.317492.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684661.317492.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684661.223737', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:44:22 --> unlink(C:\xampp\htdocs\kalendarz\writable\debugbar/debugbar_1694684662.139127.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684662.139127.json): No such file or directory', 'C:\\xampp\\htdocs\\kalendarz\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\kalendarz\\writable\\debugbar/debugbar_1694684662.139127.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1694684661.726155', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 09:47:05 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:47:36 --> syntax error, unexpected token ":", expecting "," or ";"
+in APPPATH\Views\mainpage.php on line 55.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('mainpage', [], true)
+ 3 APPPATH\Controllers\MainPage.php(11): view('mainpage')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MainPage->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainPage))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:47:47 --> syntax error, unexpected token ":", expecting "," or ";"
+in APPPATH\Views\mainpage.php on line 55.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('mainpage', [], true)
+ 3 APPPATH\Controllers\MainPage.php(11): view('mainpage')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MainPage->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainPage))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:47:55 --> syntax error, unexpected token ":", expecting "," or ";"
+in APPPATH\Views\mainpage.php on line 55.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('mainpage', [], true)
+ 3 APPPATH\Controllers\MainPage.php(11): view('mainpage')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MainPage->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainPage))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:47:56 --> syntax error, unexpected token ":", expecting "," or ";"
+in APPPATH\Views\mainpage.php on line 55.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('mainpage', [], true)
+ 3 APPPATH\Controllers\MainPage.php(11): view('mainpage')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MainPage->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainPage))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 09:48:15 --> syntax error, unexpected token ":", expecting "," or ";"
+in APPPATH\Views\mainpage.php on line 55.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('mainpage', [], true)
+ 3 APPPATH\Controllers\MainPage.php(11): view('mainpage')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MainPage->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainPage))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 09:49:57 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 09:50:19 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 09:50:19 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 09:50:19 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 09:50:26 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 09:51:50 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 09:51:57 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 09:52:09 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 09:53:03 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 09:53:13 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 09:56:28 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 09:56:50 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 10:12:22 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 10:12:40 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 10:12:58 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 10:18:46 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 10:26:30 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-14 10:26:34 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-14 10:26:34 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'1409-01-12\'
+AND "dataOd" <= \'1410-28-02\'
+AND "dataDo" >= \'1409-01-12\'
+AND "dataDo" <= \'1410-28-02\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'1409-01-12\'
+AND "dataOd" <= \'1410-28-02\'
+AND "dataDo" >= \'1409-01-12\'
+AND "dataDo" <= \'1410-28-02\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(51): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(33): App\Models\Calendar_model->getAbsencesByDate('1410', '01')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-14 10:26:42 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-14 10:26:42 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'0995-01-12\'
+AND "dataOd" <= \'0996-29-02\'
+AND "dataDo" >= \'0995-01-12\'
+AND "dataDo" <= \'0996-29-02\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'0995-01-12\'
+AND "dataOd" <= \'0996-29-02\'
+AND "dataDo" >= \'0995-01-12\'
+AND "dataDo" <= \'0996-29-02\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(51): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(33): App\Models\Calendar_model->getAbsencesByDate('996', '01')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 10:27:53 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 85.
+ 1 APPPATH\Controllers\Calendar.php(27): App\Models\Calendar_model->getAbsencesByName('bartosz')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 10:28:44 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 85.
+ 1 APPPATH\Controllers\Calendar.php(27): App\Models\Calendar_model->getAbsencesByName('bartosz')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 10:29:20 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 60.
+ 1 APPPATH\Controllers\Calendar.php(24): App\Models\Calendar_model->getAbsencesByFullName('rok wprzod ', 'rok wtyl')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 10:32:44 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 10:36:31 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 10:50:57 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 11:04:44 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(38): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 11:31:20 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 11:32:01 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 11:32:09 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 85.
+ 1 APPPATH\Controllers\Calendar.php(27): App\Models\Calendar_model->getAbsencesByName('Tomasz')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 11:33:35 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 11:34:02 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 85.
+ 1 APPPATH\Controllers\Calendar.php(27): App\Models\Calendar_model->getAbsencesByName('Artur')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 11:34:28 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 109.
+ 1 APPPATH\Controllers\Calendar.php(30): App\Models\Calendar_model->getAbsencesBySurname('Karczewski')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 11:35:22 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 109.
+ 1 APPPATH\Controllers\Calendar.php(30): App\Models\Calendar_model->getAbsencesBySurname('Karczewski')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 11:54:38 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 12:07:37 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-14 12:07:42 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+CRITICAL - 2023-09-14 12:07:42 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Konwersja typu danych varchar na typ danych datetime spowodowała utworzenie wartości leżącej poza zakresem.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 478.
+ 1 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'0201-01-12\'
+AND "dataOd" <= \'0202-28-02\'
+AND "dataDo" >= \'0201-01-12\'
+AND "dataDo" <= \'0202-28-02\'
+ORDER BY "dataOd" ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= \'0201-01-12\'
+AND "dataOd" <= \'0202-28-02\'
+AND "dataDo" >= \'0201-01-12\'
+AND "dataDo" <= \'0202-28-02\'
+ORDER BY "dataOd" ASC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "imie", "nazwisko", "dataOd", "dataDo", "grupaAbsencji"
+FROM "max_ck"."dbo"."dane_AbsencjeCK"
+WHERE "dataOd" >= :dataOd:
+AND "dataOd" <= :dataOd.1:
+AND "dataDo" >= :dataDo:
+AND "dataDo" <= :dataDo.1:
+ORDER BY "dataOd" ASC', [...], false)
+ 4 APPPATH\Models\Calendar_model.php(51): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\Calendar.php(33): App\Models\Calendar_model->getAbsencesByDate('0202', '01')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 12:08:08 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 12:12:20 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 12:12:30 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 85.
+ 1 APPPATH\Controllers\Calendar.php(27): App\Models\Calendar_model->getAbsencesByName('bartosz')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 12:12:42 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 85.
+ 1 APPPATH\Controllers\Calendar.php(27): App\Models\Calendar_model->getAbsencesByName('artur')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 12:13:34 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 85.
+ 1 APPPATH\Controllers\Calendar.php(27): App\Models\Calendar_model->getAbsencesByName('artur')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 12:14:57 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 85.
+ 1 APPPATH\Controllers\Calendar.php(27): App\Models\Calendar_model->getAbsencesByName('anton')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 12:16:02 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 12:17:15 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 12:17:17 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Data.php(10): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 12:18:29 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Data.php(10): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 12:18:39 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Calendar.php(36): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendar))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-14 12:20:36 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Models\Calendar_model.php on line 16.
+ 1 APPPATH\Controllers\Data.php(10): App\Models\Calendar_model->getAbsences()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Data->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
