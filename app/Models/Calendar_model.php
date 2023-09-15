@@ -25,7 +25,8 @@ class Calendar_model extends Model
             ->where('dataOd <=', $endDate) //2023-10-31
             ->where('dataDo >=', $startDate) //2022-09-01
             ->where('dataDo <=', $endDate) //2023-10-31
-            ->orderBy('dataOd', 'ASC')
+            //->orderBy('dataOd', 'ASC')
+            ->orderBy('nazwisko', 'ASC')
             ->get()
             ->getResult();
     }
@@ -40,7 +41,7 @@ class Calendar_model extends Model
         $endDate = date('Y-t-m', strtotime('+1 year', strtotime($selectedDate)));
     
 
-        //Wykonaj zapytanie do bazy danych, aby pobrać wydarzenia w określonym zakresie dat
+        //Zapytanie do bazy danych, aby pobrać wydarzenia w określonym zakresie dat
         return $this->db->table($this->table)
             ->select('imie, nazwisko, dataOd, dataDo, grupaAbsencji')
             ->where('dataOd >=', $startDate)
@@ -63,7 +64,7 @@ class Calendar_model extends Model
        $startDate = date('Y-01-m', strtotime('-1 year', strtotime($currentDate)));
        $endDate = date('Y-t-m', strtotime('+1 year', strtotime($currentDate)));
 
-        //Wykonaj zapytanie do bazy danych, aby pobrać wydarzenia w określonym zakresie dat
+        //Zapytanie do bazy danych, z użyciem pełnego imienia i nazwiska
         return $this->db->table($this->table)
             ->select('imie, nazwisko, dataOd, dataDo, grupaAbsencji')
             ->where('dataOd >=', $startDate)
@@ -88,7 +89,7 @@ class Calendar_model extends Model
        $startDate = date('Y-01-m', strtotime('-1 year', strtotime($currentDate)));
        $endDate = date('Y-t-m', strtotime('+1 year', strtotime($currentDate)));
 
-        //Wykonaj zapytanie do bazy danych, aby pobrać wydarzenia w określonym zakresie dat
+        //Wykonaj zapytanie do bazy danych, z użyciem imienia
         return $this->db->table($this->table)
             ->select('imie, nazwisko, dataOd, dataDo, grupaAbsencji')
             ->where('dataOd >=', $startDate)
@@ -112,7 +113,7 @@ class Calendar_model extends Model
        $startDate = date('Y-01-m', strtotime('-1 year', strtotime($currentDate)));
        $endDate = date('Y-t-m', strtotime('+1 year', strtotime($currentDate)));
 
-        //Wykonaj zapytanie do bazy danych, aby pobrać wydarzenia w określonym zakresie dat
+        //Wykonaj zapytanie do bazy danych, z użyciem nazwiska
         return $this->db->table($this->table)
             ->select('imie, nazwisko, dataOd, dataDo, grupaAbsencji')
             ->where('dataOd >=', $startDate)

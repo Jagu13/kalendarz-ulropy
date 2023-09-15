@@ -27,7 +27,8 @@ class Search extends BaseController
 
             $startDate = new \DateTime($event->dataOd);
             $endDate = new \DateTime($event->dataDo);
-
+            
+            //zliczanie ostatniego dnia urlopu jako urlop
             if ($startDate != $endDate) {
                 $endDate->modify('+1 day');
             }
@@ -40,10 +41,10 @@ class Search extends BaseController
             ];
         }
 
-        // Teraz $events zawiera dane w odpowiednim formacie
+        
         $data['events'] = $events;
 
-        // Pobierz ostatnie wykonane zapytanie
+        // Pobieranie ostatnio wykonanego zapytania
         $query = $model->getLastQuery();
 
         // Przekazanie danych do widoku i renderowanie go

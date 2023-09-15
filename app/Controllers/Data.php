@@ -21,7 +21,7 @@ class Data extends BaseController
             ];
         }
 
-        // Teraz $events zawiera dane w odpowiednim formacie
+       
         $data['events'] = $events;
 
         //wyświetl dane

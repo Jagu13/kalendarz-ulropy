@@ -40,7 +40,8 @@
         var plJsonUrl = '<?= base_url('jezyk.json') ?>'; 
 
         initialDate = '<?=$selectedDate?>';
-
+        
+        // generowanie kalendarza z FullCalendara, przypisywanie właściwości
         document.addEventListener('DOMContentLoaded', function () {
                 var calendarEl = document.getElementById('calendar');
                 var calendar = new FullCalendar.Calendar(calendarEl, {
@@ -48,26 +49,29 @@
                     locale: 'pl',
                     initialView: 'dayGridMonth',
                     initialDate: initialDate,
+                    eventOrder: 'imie',
                     headerToolbar: {
                         left: 'prev,next today',
                         center: 'title',
                         right: 'dayGridMonth,timeGridWeek',
             },
             
+            //przekazanie danych z urlopami
             events: <?= json_encode($events) ?>,
+            
             //tłumaczenie
             buttonText: {
                 today: 'Dziś',
                 month: 'Miesiąc',
                 week: 'Tydzień',
             },
-
+    
         eventContent: function (info) {
                 // Tworzenie niestandardowej zawartości wydarzenia
                 var eventContent = document.createElement('div');
                 eventContent.innerHTML = '<b>' + info.event.title + '</b>';
                 
-                // Dostosowywanie koloru tła i obramowania w zależności od właściwości opisowej
+                // Dostosowywanie koloru tła i obramowania w zależności od opisu
                 var backgroundColor = getEventColor(info.event.extendedProps.description);
                 var fontColor = 'white';
                 var borderColor = 'black';
@@ -82,8 +86,9 @@
         calendar.render();
         });
 
+        //Przypisanie kolorów do odpowiednich rodzajów absencji
         function getEventColor(grupaAbsencji) {
-                    grupaAbsencji = grupaAbsencji.toLowerCase(); // Zamień na małe litery
+                    grupaAbsencji = grupaAbsencji.toLowerCase(); // Zamiana na małe litery
 
                     if (grupaAbsencji.includes('urlopy wypoczynkowe')) {
                         return 'green';

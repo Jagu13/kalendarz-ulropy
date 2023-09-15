@@ -60,7 +60,7 @@ class Calendar extends BaseController {
 
         $data['events'] = $events;
 
-        // Pobierz ostatnie wykonane zapytanie
+        // Pobieranie ostatniego wykonanego zapytania
         $query = $model->getLastQuery();
 
         // Przekazanie danych do widoku i renderowanie go

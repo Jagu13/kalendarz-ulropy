@@ -67,7 +67,18 @@
             <legend>wyszukaj po</legend>
             <p>
                 <label for="year">rok:</label>
-                <input type="number" name="year" id="year"/>
+                <select name="year" id="year">
+                    <?php
+                        $year_start = date('Y')-10;
+                        $year_end = date('Y')+10;
+
+                        for($i = $year_start;$i<=$year_end;$i++){
+                            echo '<option value="'.$i.'">'.$i.'</option>'."\n";
+                        }
+                    ?>
+                
+                
+                </select>
                 <br>
             </p>
             <p>
